@@ -1,25 +1,148 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
   <head>
+    <!-- Meta tags -->
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+    <meta name="description" content="Code Quiz" />
+    <meta name="author" content="Mariane Thomson" />
 
-    <script src="" async defer></script>
+    <!--Styles-->
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!--CSS file-->
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+
+    <title>Coding Challenge</title></head
+  ><!--End of head-->
+  <body>
+    <!--Body begins-->
+    <div class="container my-5">
+      <div
+        class="
+          row
+          p-4
+          pb-0
+          pe-lg-0
+          pt-lg-5
+          align-items-center
+          rounded-3
+          border
+          shadow-lg
+        "
+      >
+        <article>
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">Coding Quiz</h1>
+            <p class="lead">The Rules:</p>
+            <p>
+              You have one minute to answer as many questions as possible, but
+              if you choose a wrong answer your time gets reduced in ten
+              seconds. So you need to think before answering.
+            </p>
+            <p>
+              At the end of the game, you can save your score and compare it
+              with other players.
+            </p>
+            <p>Good luck!</p>
+            <div
+              class="
+                d-grid
+                gap-2
+                d-md-flex
+                justify-content-md-start
+                mb-4 mb-lg-3
+              "
+            >
+              <button
+                type="button"
+                class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+                id=
+                >
+                Start Game
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg"></div>
+        </article>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div
+        class="
+          row
+          p-4
+          pb-0
+          pe-lg-0
+          pt-lg-5
+          align-items-center
+          rounded-3
+          border
+          shadow-lg
+        "
+      >
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <div class="card">
+              <div class="card-header" id="question"></div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="option1"></li>
+                <li class="list-group-item" id="option2"></li>
+                <li class="list-group-item" id="option3"></li>
+                <li class="list-group-item" id="option4"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-check">
+      <label class="form-check-label">
+        <input
+          type="radio"
+          class="form-check-input"
+          name="Yes"
+          id="Yes"
+          value="checkedValue"
+        />
+        Yes
+      </label>
+      <label class="form-check-label">
+        <input
+          type="radio"
+          class="form-check-input"
+          name="No"
+          id="No"
+          value="checkedValue"
+        />
+        No
+      </label>
+    </div>
+    <!--End of div form-check-->
+    <aside class="col-md-3" id="score>">Score</aside>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2021 Mariane Thomson</p>
+    </footer>
+
+    <!--Scripts-->
+    <!--JS file-->
+    <script src="./Assets/Scripts/script.js"></script>
+    <!--Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
   </body>
+  <!--End of body-->
 </html>
