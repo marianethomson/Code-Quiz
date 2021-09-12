@@ -32,11 +32,14 @@ WHEN the game is over
 THEN I can save my initials and my score
 ```
 
-## Mock-Up
+## Mock Up
 
-The following animation demonstrates the application functionality:
+## Deployed Application
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+You can find the deployed application at https://marianethomson.github.io/Code-Quiz/ or by scanning the code below:
+./
+
+![QR code to the page.](./Assets/Images.frame.png)
 
 ---
 

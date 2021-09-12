@@ -130,6 +130,7 @@ function pickAQuestion() {
 function renderQuestion() {
   //object resulting from the execution of the pickAQuestion func
   var objQuestion = pickAQuestion();
+
   //get elements from the form to display question and options dinamically
   document.getElementById("question").innerHTML = objQuestion.question;
   document.getElementById("option1").innerHTML = objQuestion.options[0];
@@ -137,7 +138,11 @@ function renderQuestion() {
   document.getElementById("option3").innerHTML = objQuestion.options[2];
   document.getElementById("option4").innerHTML = objQuestion.options[3];
   //remove question from array to avoid repetition
+
   // questionsArray.splice(index, 1);
 }
 
-renderQuestion();
+document.getElementById("start").addEventListener("click", function () {
+  //  preventDefault();
+  renderQuestion();
+});
