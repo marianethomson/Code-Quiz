@@ -37,9 +37,8 @@ THEN I can save my initials and my score
 ## Deployed Application
 
 You can find the deployed application at https://marianethomson.github.io/Code-Quiz/ or by scanning the code below:
-./
 
-![QR code to the page.](./Assets/Images.frame.png)
+![QR code to the page.](Code-Quiz\Assets\Images\frame.png)
 
 ---
 
